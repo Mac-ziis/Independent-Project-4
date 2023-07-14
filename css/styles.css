@@ -61,4 +61,47 @@ h1 {
   background-color: #e64a19;
 }
 
+#receipt {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: "Courier New", monospace;
+  line-height: 1.5;
+}
+
+#receipt h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#receipt p {
+  margin: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+#receipt .order-details {
+  margin-top: 20px;
+}
+
+#receipt .line-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+#receipt .line-item .item-name {
+  flex: 1;
+}
+
+#receipt .line-item .item-price {
+  flex-shrink: 0;
+}
+
+.hidden {
+  display: none;
+}
 
