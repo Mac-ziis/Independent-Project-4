@@ -18,9 +18,9 @@ Code: const toppings2 = ["cheese", "pepperoni", "artichoke"];
       pizza2.calculateCost();
 Expected Output: 13.96;
 
-<!-- Test: "It should return the cost of a large pizza with 1 topping"
+Test: "It should return the cost of a large pizza with 1 topping"
 Code: const toppings3 = ["anchovy"];
       const size3 = "large";
       const pizza3 = new Pizza(toppings3, size3);
       pizza3.calculateCost();
-Expected Output: 13.98; -->
+Expected Output: 13.98;

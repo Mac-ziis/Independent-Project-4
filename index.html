@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/scripts.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizza Parlor</title>
 </head>
+
 <body>
-  
+  <h1>Pizza Order</h1>
+  <div id="toppings">
+    <h2>Toppings</h2>
+    <input type="checkbox" name="topping" value="cheese"> Cheese<br>
+    <input type="checkbox" name="topping" value="pepperoni"> Pepperoni<br>
+    <input type="checkbox" name="topping" value="artichoke"> Artichoke<br>
+    <input type="checkbox" name="topping" value="anchovy"> Anchovy<br>
+  </div>
+  <div id="size">
+    <h2>Size</h2>
+    <input type="radio" name="size" value="small"> Small<br>
+    <input type="radio" name="size" value="medium"> Medium<br>
+    <input type="radio" name="size" value="large"> Large<br>
+  </div>
+  <div id="result">
+    <h2>Order Details</h2>
+    <p id="cost">Cost: $0.00</p>
+  </div>
 </body>
+
 </html>
