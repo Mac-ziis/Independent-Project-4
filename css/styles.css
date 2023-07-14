@@ -1,3 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
 
+h1 {
+  text-align: center;
+}
+
+#toppings, #size {
+  float: left;
+  width: 50%;
+}
+
+#result {
+  clear: both;
+  text-align: center;
+}
+
+#cost {
+  font-weight: bold;
+}
 
 
