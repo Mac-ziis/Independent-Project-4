@@ -7,27 +7,26 @@
   <title>Pizza Parlor</title>
 </head>
 
-<body>
+<div class="container">
   <h1>Pizza Order</h1>
-  <div id="toppings">
-    <h2>Toppings</h2>
+  <div class="form-group">
+    <label>Toppings</label>
     <input type="checkbox" name="topping" value="cheese"> Cheese<br>
-    <input type="checkbox" name="topping" value="canadian-bacon"> CA Bacon<br>
-    <input type="checkbox" name="topping" value="bbq-chicken"> BBQ Chicken<br>
     <input type="checkbox" name="topping" value="pepperoni"> Pepperoni<br>
     <input type="checkbox" name="topping" value="artichoke"> Artichoke<br>
     <input type="checkbox" name="topping" value="anchovy"> Anchovy<br>
   </div>
-  <div id="size">
-    <h2>Size</h2>
+  <div class="form-group">
+    <label>Size</label>
     <input type="radio" name="size" value="small"> Small<br>
     <input type="radio" name="size" value="medium"> Medium<br>
     <input type="radio" name="size" value="large"> Large<br>
   </div>
-  <div id="result">
-    <h2>Order Details</h2>
+  <div class="result">
     <p id="cost">Cost: $0.00</p>
   </div>
-</body>
-
+  <div class="button-container">
+    <button class="button">Place Order</button>
+  </div>
+</div>
 </html>

@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+
   // Business Logic for Pizza
 
   function Pizza(toppings, size) {
@@ -26,20 +27,20 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
-// UI Logic
+  // UI Logic
 
-function updateCost() {
-  const selectedToppings = Array.from(document.querySelectorAll('input[name="topping"]:checked')).map(input => input.value);
-  const selectedSize = document.querySelector('input[name="size"]:checked').value;
-  const pizza = new Pizza(selectedToppings, selectedSize);
-  const cost = pizza.calculateCost();
-  const costDisplay = document.getElementById('cost');
-  costDisplay.textContent = "cost: $" + cost;
-}
+  function updateCost() {
+    const selectedToppings = Array.from(document.querySelectorAll('input[name="topping"]:checked')).map(input => input.value);
+    const selectedSize = document.querySelector('input[name="size"]:checked').value;
+    const pizza = new Pizza(selectedToppings, selectedSize);
+    const cost = pizza.calculateCost();
+    const costDisplay = document.getElementById('cost');
+    costDisplay.textContent = "cost: $" + cost;
+  }
 
-const checkboxes = document.querySelectorAll('input[name="topping"]');
-checkboxes.forEach(checkbox => checkbox.addEventListener('change', updateCost));
+  const checkboxes = document.querySelectorAll('input[name="topping"]');
+  checkboxes.forEach(checkbox => checkbox.addEventListener('change', updateCost));
 
-const radios = document.querySelectorAll('input[name="size"]');
-radios.forEach(radio => radio.addEventListener('change', updateCost));
+  const radios = document.querySelectorAll('input[name="size"]');
+  radios.forEach(radio => radio.addEventListener('change', updateCost));
 });
