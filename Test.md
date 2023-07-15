@@ -24,3 +24,10 @@ Code: const toppings3 = ["anchovy"];
       const pizza3 = new Pizza(toppings3, size3);
       pizza3.calculateCost();
 Expected Output: 13.98;
+
+Test: "It should add an 18% taxt to the total cost of a medium pizza with 2 toppings"
+Code: const toppings4 = ["cheese", "pepperoni"];
+      const size4 = "medium";
+      const pizza4 = new Pizza(toppings4, size4);
+      pizza4.calculateTax();
+Expected Output: 1.98;
