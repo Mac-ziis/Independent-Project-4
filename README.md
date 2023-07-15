@@ -1,38 +1,35 @@
-# _{Application Name}_
+# _Pizza Order Form_
 
-#### By _**{List of contributors}**_
+#### By _**Mac Granger**_
 
-#### _{Brief description of application}_
+#### _This application will allow you to build your own pizza! Choose your toppings and the size of your pizza and submit your order to receive a receipt with your total cost._
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _Github_
+* _Visual Studio Code_
+* _HTML_
+* _CSS_
+* _Javascript_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This application "Mac's Pizza Shac" will allow you to build your own pizza! Simply choose your own toppings and select the size of your pizza to see the total cost displayed at the bottom of the page. Once your order is complete you will click the "Submit Order" button to receive you receipt, the tallied items from you order, and the total cost of your pizza._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _In your command terminal you will type the following: https://github.com/Mac-ziis/Independent-Project-4_
+* _Once the project is cloned to your machine, navigate to the directory and open the main project directory along with all of the files included. This will require Vs Code or software with similar capabilities._
+* _Once the file/files are open in your software, in this case I am using Visual studio code, you will right click in the index.html file and open your live server in the default browser._
+* _Once the browser is open you will need to select your toppings and the size of your pizza and then submit your order to receive your receipt and to see your total._
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
 
 ## License
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2023 Mac Granger
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

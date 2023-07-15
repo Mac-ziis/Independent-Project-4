@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateReceipt(pizza) {
     const orderDetails = document.getElementById('order-details');
     const totalCost = document.getElementById('total-cost');
-    const toppingsText = pizza.toppings.length > 0 ? `Toppings: ${pizza.toppings.join(', ')}<br>` : '';
+    const toppingsText = pizza.toppings.length > 0 ? `Toppings: ${pizza.toppings.join(', ')}`: '';
     const sizeText = `Size: ${pizza.size}<br>`;
     orderDetails.innerHTML = `${toppingsText}${sizeText}`;
 
