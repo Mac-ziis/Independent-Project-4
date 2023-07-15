@@ -4,16 +4,24 @@
 <head>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/scripts.js"></script>
-  <title>Pizza Order</title>
+  <title>Pizza Order Form</title>
 </head>
-
+<body>
 <div class="container">
   <h1>Mac's Pizza Shac</h1>
+  <p>Quality ingredients, quality folks!</p>
   <div class="form-group">
     <label>Toppings</label>
-    <input type="checkbox" name="topping" value="cheese"> Cheese<br>
+    <input type="checkbox" name="topping" value="extra-cheese"> Xtra Cheese<br>
     <input type="checkbox" name="topping" value="pepperoni"> Pepperoni<br>
+    <input type="checkbox" name="topping" value="salami"> Salami<br>
+    <input type="checkbox" name="topping" value="canadian-bacon"> CA Bacon<br>
+    <input type="checkbox" name="topping" value="bbq-chicken"> BBQ Chicken<br>
     <input type="checkbox" name="topping" value="artichoke"> Artichoke<br>
+    <input type="checkbox" name="topping" value="pineapple"> Pineapple<br>
+    <input type="checkbox" name="topping" value="olives"> Olives<br>
+    <input type="checkbox" name="topping" value="mushroom"> Mushrooms<br>
+    <input type="checkbox" name="topping" value="garlic"> Garlic<br>
     <input type="checkbox" name="topping" value="anchovy"> Anchovy<br>
   </div>
   <div class="form-group">
@@ -32,6 +40,9 @@
     <h2>Receipt</h2>
     <p id="order-details"></p>
     <p id="total-cost"></p>
+    <p id="tax-amount"></p>
+    <p id="total-with-tax"></p>
   </div>
 </div>
+</body>
 </html>
